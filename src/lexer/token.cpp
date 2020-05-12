@@ -51,13 +51,13 @@ TOKEN Token::determine_token_type(int final_state, std::string &value) {
                 return TOK_WHILE;
             if(value == "print")
                 return TOK_PRINT;
-            if(value == "int")
+            if(value == "int" || value == "integer")
                 return TOK_INT_TYPE;
             if(value == "real")
                 return TOK_REAL_TYPE;
-            if(value == "bool")
+            if(value == "bool" || value == "boolean")
                 return TOK_BOOL_TYPE;
-            if(value == "string")
+            if(value == "string" || value == "text")
                 return TOK_STRING_TYPE;
             if(value == "true" || value == "false")
                 return TOK_BOOL;
