@@ -1,4 +1,5 @@
 #include "parser.h"
+#include <stdexcept>
 
 using namespace parser;
 
