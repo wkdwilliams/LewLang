@@ -1,0 +1,22 @@
+
+function multiply(x : int) : real
+{
+
+   return x*2.0;
+}
+
+function bodmas(x: int, y: int): int
+{
+    // 4*(4+2)=24
+    // 4*4+2=18
+    return 4*(x+y);
+}
+
+print "\nTesting multiply function: ";
+print multiply(6);
+
+print "\nTesting bodmas function: ";
+print bodmas(4, 2);
+
+print "\n \n";
+print "Done Tests.\n \n";
