@@ -28,6 +28,7 @@ function bodmas(x: int, y: int): int
 
 print bodmas(5, 5); // Outputs 40
 ```
+
 <p align="center">
-![LewLang GIF showcase](https://github.com/wkdwilliams/LewLang/blob/master/lewlang.gif?raw=true)
+  <img src="https://github.com/wkdwilliams/LewLang/blob/master/lewlang.gif?raw=true">
 </p>
