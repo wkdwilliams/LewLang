@@ -4,19 +4,19 @@ project(LewLang)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(LewLang
-        main.cpp
-        lexer/lexer.cpp
-        lexer/lexer.h
-        lexer/token.cpp
-        lexer/token.h
-        parser/parser.cpp
-        parser/parser.h
-        parser/ast.cpp
-        parser/ast.h
-        visitor/visitor.h
-        visitor/xml_visitor.cpp
-        visitor/xml_visitor.h
-        visitor/semantic_analysis.cpp
-        visitor/semantic_analysis.h
-        visitor/interpreter.cpp
-        visitor/interpreter.h)
+        src/main.cpp
+        src/lexer/lexer.cpp
+        src/lexer/lexer.h
+        src/lexer/token.cpp
+        src/lexer/token.h
+        src/parser/parser.cpp
+        src/parser/parser.h
+        src/parser/ast.cpp
+        src/parser/ast.h
+        src/visitor/visitor.h
+        src/visitor/xml_visitor.cpp
+        src/visitor/xml_visitor.h
+        src/visitor/semantic_analysis.cpp
+        src/visitor/semantic_analysis.h
+        src/visitor/interpreter.cpp
+        src/visitor/interpreter.h)
