@@ -75,6 +75,7 @@ std::vector<std::string> InterpreterScope::variable_names_of(std::string identif
         if(std::get<0>(i->second) == signature)
             return std::get<1>(i->second);
 
+    return std::vector<std::string>();
 }
 
 parser::ASTBlockNode* InterpreterScope::block_of(std::string identifier, std::vector<parser::TYPE> signature) {
