@@ -12,11 +12,19 @@ function bodmas(x: int, y: int): int
     return 4*(x+y);
 }
 
+function helloWord(): string
+{
+    return "Hello World!";
+}
+
 print "\nTesting multiply function: ";
 print multiply(6);
 
 print "\nTesting bodmas function: ";
 print bodmas(4, 2);
+
+print "\nTesting helloWorld function: ";
+print helloWord();
 
 print "\n \n";
 print "Done Tests.\n \n";
