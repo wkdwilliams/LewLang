@@ -37,7 +37,7 @@ print bodmas(5, 5); // Outputs 40
 # Extended Backus–Naur Form
 
 ```
-‹program›           = { ‹statement› }
+ ‹program›           = { ‹statement› }
  
  ‹block›             = "{" { ‹statement› } "}"
  
