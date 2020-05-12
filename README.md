@@ -10,7 +10,7 @@ LewLang is a custom-made **REPL** interpreter coded in **C++**. REPL (read–eva
     cd LewLang/
     cmake . && make
 
-A compiled binary will be created with the name **LewLang**. Simply run `./LewLang` to run the interactive interpreter, or ./LewLang samples/tests.lew. to run a lew script.
+A compiled binary will be created with the name **LewLang**. Simply run `./LewLang` to run the interactive interpreter, or `./LewLang samples/tests.lew` to run a lew script.
 
 # Documentation
 
