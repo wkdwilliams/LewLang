@@ -96,10 +96,10 @@ print bodmas(5, 5); // Outputs 40
  
  ‹identifier›        = ( "_" | ‹letter› ) { "_" | ‹letter› | ‹digit› }
  
- ‹literal›           = ‹int-literal›
+ ‹literal›           = ‹int-literal | integer-literal›
                      | ‹real-literal›
-                     | ‹bool-literal›
-                     | ‹string-literal›
+                     | ‹bool-literal | boolean-literal›
+                     | ‹string-literal | text-literal›
  
  ‹int-literal›       = ‹digit› { ‹digit› }
  
